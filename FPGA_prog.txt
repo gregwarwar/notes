@@ -1,0 +1,8 @@
+How to implement a ring oscillator in Xilinx
+https://forums.xilinx.com/t5/Other-FPGA-Architecture/How-to-implement-a-ring-oscillator-with-routings-of-FPGA-Where/td-p/768444
+
+// inverter chain oscillator
+(*DONT_TOUCH= "true"*) wire [taps1-1:0] inv_chain;
+assign inv_chain = ~{inv_chain[taps1-2:0], inv_chain[taps1-1]};
+assign inv_osc_clk = inv_chain[taps1-1];
+
