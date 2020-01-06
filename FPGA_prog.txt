@@ -6,3 +6,19 @@ https://forums.xilinx.com/t5/Other-FPGA-Architecture/How-to-implement-a-ring-osc
 assign inv_chain = ~{inv_chain[taps1-2:0], inv_chain[taps1-1]};
 assign inv_osc_clk = inv_chain[taps1-1];
 
+
+* *********************
+In Xilinx
+  CLB = 2 slices
+  slice = 4 LUT's + 8FF + multiplier + 48bit adder
+  
+  
+The Basys 3 has an Artix-7 FPGA (XC7A35T)
+  this has 5,200 slices (41,600 Flip-Flops)
+  
+  It also has 90 DSP slices
+  
+  
+  
+  
+  
