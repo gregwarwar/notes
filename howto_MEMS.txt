@@ -1,0 +1,9 @@
+If we transform Newtons laws of motion to a rotating frame of reference, you get the same equations with some additional
+fictitious inertial forces
+
+Study This : https://en.wikipedia.org/wiki/Vibrating_structure_gyroscope
+
+The Coriolis force 
+
+A coriolis vibrator gyroscope is a gyroscope that uses a vibrating structure to determine the rate of rotation.
+
